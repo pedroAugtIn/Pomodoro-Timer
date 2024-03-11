@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  #main-body {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  #break-length, #session-length, #time-left {
+    font-size: 1.5em;
+  }
+  
+  #start-stop {
+    margin-top: 20px;
+  }
+  
+  #session-time{
+    margin-top: 30px;
+  }
+  
+  #start_stop, #reset, #break-decrement, #break-increment, #session-increment, #session-decrement {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .labels {
+    display:flex;
+    margin-left: 70px;
+    gap: 50px
+  }
+  
